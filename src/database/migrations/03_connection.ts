@@ -10,7 +10,7 @@ export async function up(knex:Knex) {
             .inTable('classes')
             .onUpdate('CASCADE')
             .onDelete('CASCADE');
-        
+
         table.timestamp('created_at')
             .defaultTo(knex.raw('CURRENT_TIMESTAMP'))
             .notNullable();
