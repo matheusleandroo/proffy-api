@@ -41,7 +41,7 @@ It is recommended to install the extension ESLint and edit the code editor' sett
 After clone repository, go to folder and follow this steps:
 
 - Run **`yarn`** to install dependencies;
-- Run **`yarn dev`** to start application.
+- Run **`yarn start`** to start application.
 
 Now you can use your REST API Client to test "**Proffy API**".
 
