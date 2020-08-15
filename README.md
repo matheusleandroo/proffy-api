@@ -30,28 +30,10 @@ Finally, you will need a rest api client to test "**Proffy API**". Examples:
   <li><a href="https://install.advancedrestclient.com/install">Advanced REST Client</a></li>
 </ul>
 
-It is recommended to install the extension ESLint and edit the REST Api Client' settings:
+It is recommended to install the extension ESLint and edit the code editor' settings:
 ```
   "files.eol": "\n",
-  "eslint.autoFixOnSave": true,
-  "eslint.validate": [
-    {
-      "language": "javascript",
-      "autoFix": true
-    },
-    {
-      "language": "javascriptreact",
-      "autoFix": true
-    },
-    {
-      "language": "typescript",
-      "autoFix": true
-    },
-    {
-      "language": "typescriptreact",
-      "autoFix": true
-    }
-  ]
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
 ```
 
 ## Deploy
@@ -59,7 +41,7 @@ It is recommended to install the extension ESLint and edit the REST Api Client' 
 After clone repository, go to folder and follow this steps:
 
 - Run **`yarn`** to install dependencies;
-- Run **`yarn dev`** to start application.
+- Run **`yarn start`** to start application.
 
 Now you can use your REST API Client to test "**Proffy API**".
 
