@@ -40,6 +40,8 @@ It is recommended to install the extension ESLint and edit the code editor' sett
 
 After clone repository, go to folder and follow this steps:
 
+- Create a file **`.env`** based on the file **`.env.example`**;
+- Place your settings inside the **`.env`** file;
 - Run **`yarn`** to install dependencies;
 - Run **`yarn start`** to start application.
 
