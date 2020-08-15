@@ -30,7 +30,7 @@ Finally, you will need a rest api client to test "**Proffy API**". Examples:
   <li><a href="https://install.advancedrestclient.com/install">Advanced REST Client</a></li>
 </ul>
 
-It is recommended to install the extension ESLint and edit the code editor' settings:
+It is recommended to install the extension ESLint, Prettier, EditorConfig and edit the code editor' settings:
 ```
   "files.eol": "\n",
   "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
